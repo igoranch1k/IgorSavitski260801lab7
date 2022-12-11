@@ -1,0 +1,33 @@
+@media screen and (max-width: 435px) {
+    .header_link {
+        font-size: 14px;
+        line-height: 52px;
+    }
+
+    .big_img {
+        margin-top: 70px;
+    }
+    .title {
+        font-size: 38px;
+    }
+    .paragraph {
+        font-size: 20px;
+    }
+    .card_stats {
+        font-size: 22px;
+    }
+    .card_pic {
+        width: 250px;
+        height: 156px;
+    }
+}
+@media screen and (max-width: 515px) {
+    .header_link {
+        padding: 10px 10px;
+    }
+}
+@media screen and (max-width: 290px) {
+    .header_link {
+        padding: 7px 7px;
+    }
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задача2</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header_burger burger">
+            <span class="burger_line burger_line_first"></span>
+            <span class="burger_line burger_line_second"></span>
+            <span class="burger_line burger_line_third"></span>
+        </div>
+        <header class="header">
+            <div class="logo">
+                <img src="./Imgs/Hearts.svg" alt="Сердечки">
+            </div>
+            <nav class="headerNav">
+                <ul>
+                    <li><a style="color: #FF0000;" href="#">Главная</a></li>
+                    <li><a href="#">Компания</a></li>
+                    <li><a href="#">Игры</a></li>
+                    <li><a href="#">Карьера</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="lang">ENG</button>
+        </header>
+        <section class="firstSection">
+            <div class="sidesoc">
+                <a href="#">
+                    <div class="icon-pinterest icon"></div>
+                </a><br>
+                <a href="#">
+                    <div class="icon-behance icon"></div>
+                </a><br>
+                <a href="#">
+                    <div class="icon-dribble icon"></div>
+                </a><br>
+                <a href="#">
+                    <div class="icon-snapchat icon"></div>
+                </a><br>
+                <a href="#">
+                    <div class="icon-linkedin icon"></div>
+                </a><br>
+                <a href="#">
+                    <div class="icon-facebook icon"></div>
+                </a><br>
+            </div>
+            <div class="firstArticle">
+                <h1>Игры</h1><br>
+                <p>Toy.Stream сегодня — это команда из более 500 человек и офисы по всему миру. Мы входим в топ-10
+                    игровых разработчиков по установкам — общее количество загрузок перевалило за 2 млрд, а
+                    ежемесячная
+                    аудитория составляет более 250 млн игроков.</p><br>
+                <p>В разработке у нас всегда находится более десяти проектов одновременно. Мы постоянно
+                    экспериментируем, ищем новые тренды и пробуем себя в новых жанрах.</p><br>
+                <button class="ourworks"><a class="zakl" href="#design">Смотреть <br> наши работы</a><img class="articlearrow"
+                        src="./Imgs/articlearrow.svg" alt="Стрелочка"></button>
+            </div>
+            <div class="silverboy">
+                <img src="./Imgs/silverboy.svg" alt="Серебрянный паренёк">
+            </div>
+        </section>
+        <main>
+            <section class="secondSection mainSection">
+                <div class="sidesoc">
+                    <a href="#">
+                        <div class="icon-pinterest icon"></div>
+                    </a><br>
+                    <a href="#">
+                        <div class="icon-behance icon"></div>
+                    </a><br>
+                    <a href="#">
+                        <div class="icon-dribble icon"></div>
+                    </a><br>
+                    <a href="#">
+                        <div class="icon-snapchat icon"></div>
+                    </a><br>
+                    <a href="#">
+                        <div class="icon-linkedin icon"></div>
+                    </a><br>
+                    <a href="#">
+                        <div class="icon-facebook icon"></div>
+                    </a><br>
+                </div>
+
+                <div class="articleSecond article">
+                    <h2 id="design">Design Masters</h2><br>
+                    <p>Станьте дизайнером интерьеров!</p><br>
+                    <p>Проходите уровни матч-3, создавайте собственные дизайны и интерьеры, следите за историей и
+                        знакомьтесь с персонажами</p><br>
+                    <button id="more" class="more">Подробнее <br><img class="articletoright" src="./Imgs/arrowtoright.svg"
+                            alt="Стрелочка"></button>
+                </div>
+                <div class="mainSectionImg">
+                    <img src="./Imgs/towerdefence.svg" alt="Защита башен">
+                </div>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                    <div class="modal-article">
+                    <h2>Design Masters</h2><br>
+                    <p>Станьте дизайнером интерьеров!</p><br>
+                    <p>Проходите уровни матч-3, создавайте собственные дизайны и интерьеры, следите за историей и
+                        знакомьтесь с персонажами. Станьте дизайнером интерьеров!</p><br>
+                    <p>Проходите уровни матч-3, создавайте собственные дизайны и интерьеры, следите за историей и
+                        знакомьтесь с персонажами.</div>
+                    <div class="modal-pic">
+                        <img src="./Imgs/modaldesignmasters.svg" alt="Защита башен">
+                        <div class="stores">
+                            <img class="geton" src="./Imgs/playmarket.svg" alt="Play Market">
+                            <img class="geton" src="./Imgs/appstore.svg" alt="App Store">
+                        </div>
+                    </div>
+                    <span class="close">&times;</span>
+                    </div>
+                </div>
+            </section>
+            <section class="thirdSection mainSection">
+                <div class="mainSectionImg">
+                    <img src="./Imgs/buddy.svg" alt="Паренёк">
+                </div>
+                <div class="articleThird article">
+                    <h2>Perfect Makeup 3D</h2><br>
+                    <p>Perfect Makeup 3D</p>
+                    <p>Добро пожаловать в мир макияжа!</p><br>
+                    <p>Выбирайте кисти, цвета и оттенки губной помады, подводки для глаз и пудры, чтобы добиться
+                        превосходного результата.</p><br>
+                    <button class="more">Подробнее<img class="articletoright" src="./Imgs/arrowtoright.svg"
+                            alt="Стрелочка"></button>
+                </div>
+            </section>
+            <section class="fourthSection mainSection">
+                <div class="articleFourth article">
+                    <h2>Escape Masters</h2><br>
+                    <p>Совершите идеальный побег!</p><br>
+                    <p>Спаси напарников, собери сокровища и прокопай путь к свободе, но опасайся ловушек.</p><br>
+                    <button class="more">Подробнее<img class="articletoright" src="./Imgs/arrowtoright.svg"
+                            alt="Стрелочка"></button>
+                </div>
+                <div class="mainSectionImg">
+                    <img src="./Imgs/escapemaster.svg" alt="Беглец">
+                </div>
+            </section>
+            <section class="fifthSection mainSection">
+                <div class="mainSectionImg">
+                    <img src="./Imgs/hitmaster.svg" alt="Хитмастер">
+                </div>
+                <div class="articleFifth article">
+                    <h2>Hitmasters</h2><br>
+                    <p></p><br>
+                    <p>Стань стрелком и срази всех врагов!</p><br>
+                    <p>Целься метко, используй объекты на уровнях и не дай никому спастись! Открывай новое оружие,
+                        пополняй свой арсенал и проходи головоломки.</p><br>
+                    <button class="more">Подробнее<img class="articletoright" src="./Imgs/arrowtoright.svg"
+                            alt="Стрелочка"></button>
+                </div>
+            </section>
+            <button class="moreProjects more">Больше <br> проектов <img src="./Imgs/bigArrow.svg" alt="Стрелочка"
+                    class="arrow-todown"></button>
+            <section class="sixthSection">
+                <div class="container">
+                    <div class="lastprojects">
+                        <h2>Последние проекты</h2>
+                    </div>
+                    <div class="direct">
+                        <div class="leftnav arrow">&#129044;</div>
+                        <div class="rightnav arrow">&#129046;</div>
+                    </div>
+                </div>
+                <div class="sixthSectionCard">
+                    <div class="sixthSectionCardItem">
+                        <img src="./Imgs/lilhipmaster.svg" alt="">
+                        <h2>Hitmasters</h2><br>
+                    <p>Стань стрелком и срази всех врагов!</p><br>
+                    <p>Целься метко, используй объекты на уровнях и не дай никому спастись! Открывай новое оружие,
+                        пополняй свой арсенал и проходи головоломки.</p><br>
+                        <button class="more">Подробнее<img class="articletoright" src="./Imgs/arrowtoright.svg"
+                            alt="Стрелочка"></button>
+                    </div>
+                    <div class="sixthSectionCardItem">
+                        <img src="./Imgs/lilhipmaster.svg" alt="">
+                        <h2>Escape Masters</h2><br>
+                    <p>Совершите идеальный побег!</p><br>
+                    <p>Спаси напарников, собери сокровища и прокопай путь к свободе, но опасайся ловушек.</p><br>
+                        <button class="more">Подробнее<img class="articletoright" src="./Imgs/arrowtoright.svg"
+                            alt="Стрелочка"></button>
+                    </div>
+                    <div class="sixthSectionCardItem">
+                        <img src="./Imgs/lilhipmaster.svg" alt="">
+                        <h2>Perfect Makeup 3D</h2><br>
+                    <p>Perfect Makeup 3D</p>
+                    <p>Добро пожаловать в мир макияжа!</p><br>
+                    <p>Выбирайте кисти, цвета и оттенки губной помады, подводки для глаз и пудры, чтобы добиться
+                        превосходного результата.</p><br>
+                        <button class="more">Подробнее<img class="articletoright" src="./Imgs/arrowtoright.svg"
+                            alt="Стрелочка"></button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div id="toTop">	
+        &#129121;<br>Вверх</div>
+    <footer class="footer">
+
+        <div class="inc">
+            © Toy.Stream, Inc.
+        </div>
+        <div class="footernav">
+            <ul>
+                <li><a href="#">Главная страница</a></li>
+                <li><a href="#">Компания</a></li>
+                <li><a href="#">Игры</a></li>
+                <li><a href="#">Карьера</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="footersoc">
+            <a href="#">
+                <div class="icon-pinterest icon"></div>
+            </a>
+            <a href="#">
+                <div class="icon-behance icon"></div>
+            </a>
+            <a href="#">
+                <div class="icon-dribble icon"></div>
+            </a>
+            <a href="#">
+                <div class="icon-snapchat icon"></div>
+            </a>
+            <a href="#">
+                <div class="icon-linkedin icon"></div>
+            </a>
+            <a href="#">
+                <div class="icon-facebook icon"></div>
+            </a>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
